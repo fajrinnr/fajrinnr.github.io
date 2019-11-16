@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Grid */
+
+.grid {
+    display: grid;
+    position: relative;
+    margin: auto;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-why {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.grid-moment {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Tombol */
+
+a.tombol.tombol-banner {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 150px;
+}
+.tombol {
+  text-decoration: none;
+  position: relative;
+ display: inline-block;
+  text-transform: uppercase;
+  padding: 10px 2rem;
+  border-radius: 5px;    
+  margin-top: 20px;
+}
+
+.tombol-banner {
+    color: #ffffff;
+    background-color: #050505;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Header */
+
+header {
+    background-color: #050505;
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    z-index: 20;
+    opacity: 100%;
+    
+}
+
+.logo-bj-header img {
+    height: 70px;
+    margin: 10px 0 0 50px !important;
+}
+
+ul.menu-header{
+    margin: 20px 0 0 50px;
+    padding: 15px;
+}
+  
+ul.menu-header li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 2rem;
+}
+  
+ ul.menu-header li a{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: relative; 
+}
+
+  /* End Header */
+
+  /* Banner */
+.banner {
+   background: url('media/DSC02828.JPG');
+   background-position: 50% 60%;
+   background-size: cover;
+   height: 580px;
+   width: 100%;
+   position: relative;
+   top: 90px; 
+} 
+
+.caption-banner {
+padding: 15rem;
+
+}
+
+.caption-banner h1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: monospace;
+    line-height: 40px;
+}
+
+
+
+/* End Banner */
+
+/* Why Us */
+
+.judul {
+    margin-top: 150px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+    position: relative;
+}
+
+.gambar-why img{
+    margin-top: 135px;
+    transform: rotate(270deg);
+    
+}
+
+.caption-why {
+    font-family: monospace;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+    padding-top: 40px;
+}
+
+/* Our Moment */
+
+.moment {
+background-color: #000000;
+height: 580px ;
+}
+
+.judul-momen {
+    color: #ffffff;
+    margin-top: 90px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+    position: relative;
+}
+
+.gambar-moment img {
+    width: 350px;
+    height: 250px;
+}
+
+.gambar-moment img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gambar-moment h2 {
+    font-family: monospace;
+text-align: center;
+margin-top: 10px;
+color: white;
+}
+
+/* End Our Moment */
+
+/* Contact */
+
+.judul-contact {
+    margin-top: 90px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+    position: relative;
+}
+.gambar-contact img {
+    width: 40%;
+    height: 40%;
+
+}
+
+.gambar-contact img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gambar-contact h2 , h3{
+    font-family: monospace;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #050505;
+    height: 345px;
+}
+
+/* .footer-caption {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 9rem;
+}
+
+.footer-caption img {
+    height: 150px;
+} */
+
+/* .saran h2{
+color: #ffffff;
+margin-top: 10px;
+margin-right: 20px;
+text-align: center;
+} */
+
+.copyright{
+    background-color: #3f3c3c;
+    color: #000000;
+    margin-top: 45px;
+    padding: 1rem;
+    position: relative;
+    opacity: 50%;
+  }
+  
+
