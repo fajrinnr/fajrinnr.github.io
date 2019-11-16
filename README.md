@@ -1,1 +1,123 @@
-# fajrinnr.github.io
+# <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bang Jampang</title>
+    <link type="text/css" href="exercise-3.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="grid">
+            <div class="logo-bj-header">
+                <img src="media/BJ.png">
+            </div>
+            <ul class="menu-header">
+                <li><a href="exercise-3.html">Home</a></li>
+                <li><a href="#us">Why Us</a></li>
+                <li><a href="#moment">Our Moment</a></li>
+                <li><a href="#">Bang Jampang</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="caption-banner">
+            <h1>LOOKING MC OR STANDUP COMEDIAN</h1>
+            <h1>FOR YOUR EVENT?</h1>
+            <h1>Hit me up and I'll tell you.</h1>
+            <a class="tombol tombol-banner" href="#contact">CONTACT</a>
+        </div>
+    </div>
+    <div id="us"></div>
+    <div class="judul">
+        <h1>WHY US</h1>
+    </div>
+    <div class="grid-why">
+        <div class="gambar-why">
+            <img src="media/DSC00920.JPG" style="width: 90%;"></div>
+        <div class="caption-why">
+            <p> Kamu ingin acara kamu menjadi lebih menarik? Bang Jampang solusinya! Bang Jampang adalah salah satu
+                MC dan Standup Comedian terbaik dalam pelayanan nya. Bang Jampang dapat memberikan keceriaan,
+                kebahagiaan dan kesuksesan untuk acara kamu.</p>
+            <br>
+            <p> Bang Jampang berkomitmen untuk mendapatkan respon yang baik dari klien maupun para audiens. Tujuan Bang
+                Jampang adalah untuk melampaui batas ekspektasi klien kami. Bang Jampang hadir untuk membuat acara mu
+                menjadi luar biasa.</p>
+        </div>
+    </div>
+    <div id="moment"></div>
+    <div class="moment">
+        <div class="judul-momen">
+            <h1>OUR MOMENT</h1>
+        </div>
+        <div class="grid-moment">
+            <div class="gambar-moment">
+                <img class="center" src="media/IMG_8702.JPG" style="width: 100%;">
+                <h2>HECTRA</h2>
+                <h2>ELECTRA FEST</h2>
+                <h3 style="color: white;">7 MARET 2019</h3>
+            </div>
+            <div class="gambar-moment">
+                <img class="center" src="media/IMG_0710.JPG" style="width: 100%;">
+                <h2>GANDENG TANGAN</h2>
+                <h2>ULANG TAHUN GANDENG TANGAN</h2>
+                <h3 style="color: white;">29 MARET 2019</h3>
+            </div>
+            <div class="gambar-moment">
+                <img class="center" src="media/S__17203274.jpg" style="width: 100%;">
+                <h2>OLIMPIADE TELKOM</h2>
+                <h2>NIGHT OF THE CHAMPIONS</h2>
+                <h3 style="color: white;">28 APRIL 2019</h3>
+            </div>
+        </div>
+    </div>
+    <div id="contact"></div>
+    <div class="judul-contact">
+        <h1>CONTACT</h1>
+    </div>
+    <div class="grid-moment">
+        <div class="gambar-contact">
+            <img class="center" src="media/email1.png">
+            <h2>E-MAIL</h2>
+            <h3 style="color: black;">bj.production2k18@gmail.com</h3>
+        </div>
+        <div class="gambar-contact">
+            <a href="https://www.instagram.com/bgjampang/?hl=en" target="_blank"><img class="center"
+                    src="media/ig1.png"></a>
+            <h2>INSTAGRAM</h2>
+            <h3 style="color: black;">bgjampang</h3>
+        </div>
+        <div class="gambar-contact">
+            <img class="center" src="media/wa.png">
+            <h2>PHONE</h2>
+            <h3 style="color: black;">081283475797 (Ridho)</h3>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <div class="grid-footer">
+            <div class="footer-caption">
+                <h2>BANG JAMPANG</h2>
+            </div>
+            <div class="footer-caption">
+                <img src="media/BJ.png" style="width: 100%;"> </div>
+            <section class="saran">
+                <label for="saran">
+                    <h2>Saran dan Pesan</h2>
+                </label>
+                <br>
+                <textarea id="saran" name="saran" rows="3" cols="40"></textarea>
+            </section>
+        </div>
+        <div class="copyright">
+            <p style="text-align:center; font-size:12px !important">BANG JAMPANG ©2018</p>
+        </div>
+    </footer>
+</body>
+
+</html>
