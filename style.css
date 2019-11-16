@@ -60,14 +60,21 @@ a.tombol.tombol-banner {
 }
 
 .tombol-banner {
-    color: #ffffff;
-    background-color: #050505;
     font-family: monospace;
     text-transform: uppercase;
     font-size: 15px;
     font-weight: bold;
     text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+        
 }
+
+.tombol-banner:hover{
+    border: 1px solid #000000;
+        background-color: transparent;
+        color: #000000;
+  }
 
 /* Header */
 
@@ -84,6 +91,17 @@ header {
 .logo-bj-header img {
     height: 70px;
     margin: 10px 0 0 50px !important;
+}
+
+.caption-bj-header {
+    display: inline-block;
+}
+
+h1.caption-bj-header {
+    color: #ffffff;
+    font-family: monospace;
+    position: relative;
+    bottom: 30px;
 }
 
 ul.menu-header{
